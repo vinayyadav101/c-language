@@ -31,6 +31,13 @@ int main(){
     printf("%d , %d\n",x,y); // if you print bouth varibale so decaler specifier both time.
     printf("%d\n",x+y); // in this case we have to sum the number in print like this.
 
+
+    float flootNum = 2.6543;
+    printf("%f\n" , flootNum);
+    printf("%.2f\n" , flootNum); // .2 is only print 2 decimals.
+    
+    // this sizeof function to get varibale memory size if you print value the use data type %zu.
+    printf("%zu",sizeof(flootNum));
     return 0;
 };
 

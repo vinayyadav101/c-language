@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <stdbool.h>
 
 // store a string a varibale use char data type is store a single character. so use varibale length to store characters store.
 int main(){
@@ -37,8 +38,22 @@ int main(){
     printf("%.2f\n" , flootNum); // .2 is only print 2 decimals.
     
     // this sizeof function to get varibale memory size if you print value the use data type %zu.
-    printf("%zu",sizeof(flootNum));
+    printf("%zu\n",sizeof(flootNum));
+
+
+    // if you don't went to chaange variable value.then use const keyword.
+    // const varibale name must be uppercase its is good practice for rediblity.
+    const int CONSTNUM = 2;
+    printf("%d\n",CONSTNUM);
+    // constNum = 5; // show error:assignment of read-only variable 'constNum'
+    
+    // create a boolean variable using stdbool.h hader.
+    bool isVriableIsTrue = true;
+    printf("%d\n",isVriableIsTrue); // its returen 1 (true).
+    printf("%d\n",CONSTNUM > myNum); // its false 0 (false).
+    
     return 0;
+
 };
 
 

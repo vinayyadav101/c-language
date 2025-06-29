@@ -1,6 +1,7 @@
 // for example memmory address.
 #include <string>
 #include <string.h>
+#include <stdlib.h>
 
 int main(){
     int myNum = 24;
@@ -80,4 +81,6 @@ int main(){
     *myArrays = 0; // in the below print both output are same.
     printf("%d\n",*myArrayValue); // 0
     printf("%d\n",*myArrays); // 0
+
+    system("pause");
 }

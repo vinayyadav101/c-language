@@ -19,8 +19,7 @@ int main() {
     }
 
     if (found) {
-        printf("ok\n");
-        printf("file(s) exist\n");
+        printf("Temp file delete Successfully\n");
     } else {
         printf("file(s) not exist\n");
     }
